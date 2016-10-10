@@ -69,6 +69,7 @@ header nav li a:active{
   font-weight: 800;
   font-size: 24px;
   color: white;
+  outline: none;
 }
 #kool:hover{
   box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
@@ -236,6 +237,7 @@ header nav li a:active{
   font-weight: 800;
   font-size: 18px;
   color: white;
+  outline: none;
 }
 #afterlife:hover{
   box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
