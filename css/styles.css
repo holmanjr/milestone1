@@ -248,6 +248,7 @@ footer{
   height: 105px;
   background-color: #403D65;
   text-align: center;
+  width: auto;
 }
 footer nav li{
   display: inline-block;
