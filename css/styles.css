@@ -12,6 +12,10 @@ header{
 }
 #logo{
   height: 37px;
+  transition: all 0.5s linear;
+}
+#logo.glow{
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
 }
 .header-left{
   float: left;
@@ -83,6 +87,10 @@ header nav li a:active{
   margin-bottom: 90px;
   background-color: white;
   box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
+  transition: all .5s linear;
+}
+#about-us.glow{
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.75);
 }
 #about-us h3{
   font-family: "Raleway", sans-serif;
