@@ -1,10 +1,12 @@
-$(function () {
+function $logoGlow(){
     var $cultLogo = $('#logo');
         $cultLogo.addClass('glow');
         setTimeout(function () {
             $cultLogo.removeClass('glow');
         }, 500);
-});
+}
+$logoGlow();
+
 
 function validateForm() {
     var fName = document.forms["myForm"]["firstname"].value;
