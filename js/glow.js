@@ -5,7 +5,7 @@ function $logoGlow(){
             $cultLogo.removeClass('glow');
         }, 500);
 }
-$logoGlow();
+window.addEventListener("load", $logoGlow, false);
 
 
 function validateForm() {
